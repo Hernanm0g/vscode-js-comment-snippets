@@ -29,27 +29,31 @@
 	"comm-section": {
 		"prefix": "comm-section",
 		"body": [ "",
-				"/**================================================== *",
-				" * ==========  ${1:Section comment block}  ========== *",
-				" * ================================================== */",
+				"/*=============================================>>>>>",
+				"=  ${1:Section comment block}  =",
+				"===============================================>>>>>*/",
 				"\n$0\n",
-				"/* =======  End of ${1:Section comment block}  ======= */"
+				"/*= End of ${1:Section comment block} =*/",
+				"/*=============================================<<<<<*/"
 		],
 		"description": "Comment - Section block comment (Both header and footer)"
 	},
 	"comm-header": {
 		"prefix": "comm-header",
 		"body": [ "",
-				"/**================================================== *",
-				" * ==========  ${1:Section comment block}  ========== *",
-				" * ================================================== */",
+				"/*=============================================>>>>>",
+				"=  ${1:Section comment block}  =",
+				"===============================================>>>>>*/",
 				"\n$0\n"
 		],
 		"description": "Comment - Section block comment begin"
 	},
 	"comm-footer": {
 		"prefix": "comm-footer",
-		"body": "\n/* =======  End of ${1:Section comment block}  ======= */\n\n",
+		"body": ["",
+			"/*= End of ${1:Section comment block} =*/",
+			"/*=============================================<<<<<*/"
+		],
 		"description": "Comment - Section block comment end"
 	}
 }
