@@ -1,8 +1,14 @@
 {
     "name": "vscode-js-comment-snippets",
     "displayName": "VSCode JS Comment Snippets",
-    "description": "A JS port of the famous Sublime Snippets package for VS",
-    "version": "0.0.1",
+    "description": "A port of the famous Sublime Snippets package for Javascript, React, vue and Typescript",
+    "version": "1.0.0",
+    "publisher":"zer0th",
+    "icon":"icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Hernanm0g/vscode-js-comment-snippets.git"
+    },
     "engines": {
         "vscode": "^1.45.0"
     },
