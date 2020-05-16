@@ -1,0 +1,55 @@
+{
+	"comm-block": {
+		"prefix": "comm-block",
+		"body": "/**\n *\n * ${1:Block comment}\n *\n */\n\n${0}",
+		"description": "Comment - Block comment",
+		"scope": ""
+	},
+	"comm-todo": {
+		"prefix": "comm-todo",
+		"body": "/**\n\n\tTODO:\n\t- ${1:First todo item}\n\t- ${2:Second todo item}\n\n */\n\n",
+		"description": "Comment - Block with To-Do list",
+		"scope": ""
+	},
+	"comm": {
+		"prefix": "comm",
+		"body": "/* ${1:Comment} */\n\n${0}",
+		"description": "Comment - Wrapped comment line"
+	},
+	"comm-subsection-lines": {
+		"prefix": "comm-subsection",
+		"body": "\n/*--------  ${1:Dash comment line}  --------*/\n${0}",
+		"description": "Comment - Dash wrapped comment line"
+	},
+	"comment_subsection-stars": {
+		"prefix": "comment_line_stars",
+		"body": "\n/*********  ${1:Dash comment line}  **********/\n${0}",
+		"description": "Comment - Star wrapped comment line"
+	},
+	"comm-section": {
+		"prefix": "comm-section",
+		"body": [ "",
+				"/**================================================== *",
+				" * ==========  ${1:Section comment block}  ========== *",
+				" * ================================================== */",
+				"\n$0\n",
+				"/* =======  End of ${1:Section comment block}  ======= */"
+		],
+		"description": "Comment - Section block comment (Both header and footer)"
+	},
+	"comm-header": {
+		"prefix": "comm-header",
+		"body": [ "",
+				"/**================================================== *",
+				" * ==========  ${1:Section comment block}  ========== *",
+				" * ================================================== */",
+				"\n$0\n"
+		],
+		"description": "Comment - Section block comment begin"
+	},
+	"comm-footer": {
+		"prefix": "comm-footer",
+		"body": "\n/* =======  End of ${1:Section comment block}  ======= */\n\n",
+		"description": "Comment - Section block comment end"
+	}
+}
