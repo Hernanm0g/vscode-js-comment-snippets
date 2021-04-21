@@ -23,14 +23,14 @@
 		"body": [ "",
 				"# =============================================>>>>>",
 				"# =  ${1:Section comment block}  =",
-				"# ===============================================>>>>>*/\n \n ",
+				"# ===============================================>>>>>*/\n\n",
 				"# = End of ${1:Section comment block} =*/",
 				"# =============================================<<<<<"
 		]
 	},
 	"comm-subsection": {
 		"prefix": "comm-subsection",
-		"body": "\n#--------  ${1:Dash comment line}  --------\n${0}",
+		"body": "\n# <<--------  ${1:Dash comment line}  -------->>\n${0}",
 		"description": "Comment - Dash wrapped comment line"
 	}
 }
