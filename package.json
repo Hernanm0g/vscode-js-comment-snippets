@@ -36,6 +36,11 @@
             {
                 "language": "vue",
                 "path": "./snippets/js-snippets.json"
+            },
+            {
+                "language": "python",
+                "path":"./snippets/py-snippets.json"
+
             }
         ]
     }

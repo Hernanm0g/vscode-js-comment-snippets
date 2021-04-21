@@ -1,0 +1,36 @@
+{
+	"comm": {
+		"prefix": "comm",
+		"body": "# ${1:Comment} \n",
+		"description": "Comment - Single line"
+	},
+	"comm-file": {
+		"prefix": "comm-file",
+		"body": [
+			"# -----------------------------------------------------------",
+			"# @name ${1:File Name}",
+			"# @description ${2:Short Description}",
+			"#",
+			"# @author ${3:Author}",
+			"# @version ${4:Version}",
+			"# -----------------------------------------------------------"
+		],
+		"description": "Comment - File comment",
+		"scope": ""
+	},
+	"comm-section": {
+		"prefix": "comm-section",
+		"body": [ "",
+				"# =============================================>>>>>",
+				"# =  ${1:Section comment block}  =",
+				"# ===============================================>>>>>*/\n \n ",
+				"# = End of ${1:Section comment block} =*/",
+				"# =============================================<<<<<"
+		]
+	},
+	"comm-subsection": {
+		"prefix": "comm-subsection",
+		"body": "\n#--------  ${1:Dash comment line}  --------\n${0}",
+		"description": "Comment - Dash wrapped comment line"
+	}
+}
