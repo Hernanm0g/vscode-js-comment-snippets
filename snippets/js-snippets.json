@@ -1,19 +1,19 @@
 {
 	"comm-block": {
 		"prefix": "comm-block",
-		"body": "/**\n *\n * ${1:Block comment}\n *\n */\n\n${0}",
+		"body": "/**\n *\n * ${1:Block comment}\n *\n */\n$0\n",
 		"description": "Comment - Block comment",
 		"scope": ""
 	},
 	"comm-todo": {
 		"prefix": "comm-todo",
-		"body": "/**\n\n\tTODO:\n\t- ${1:First todo item}\n\t- ${2:Second todo item}\n\n */\n\n",
+		"body": "/**\n *\n * TODO:\n *\t- ${1:First todo item}\n *\t- ${2:Second todo item}\n *\n */\n$0\n",
 		"description": "Comment - Block with To-Do list",
 		"scope": ""
 	},
 	"comm": {
 		"prefix": "comm",
-		"body": "/* ${1:Comment} */\n\n${0}",
+		"body": "/* ${1:Comment} */\n${0}\n",
 		"description": "Comment - Wrapped comment line"
 	},
 	"comm-subsection-lines": {
@@ -22,7 +22,7 @@
 		"description": "Comment - Dash wrapped comment line"
 	},
 	"comment_subsection-stars": {
-		"prefix": "comment_line_stars",
+		"prefix": "comm-subsection-stars",
 		"body": "\n/*********  ${1:Dash comment line}  **********/\n${0}",
 		"description": "Comment - Star wrapped comment line"
 	},
@@ -31,29 +31,10 @@
 		"body": [ "",
 				"/*=============================================>>>>>",
 				"=  ${1:Section comment block}  =",
-				"===============================================>>>>>*/",
-				"\n$0\n",
+				"===============================================>>>>>*/\n \n \n ",
 				"/*= End of ${1:Section comment block} =*/",
 				"/*=============================================<<<<<*/"
 		],
 		"description": "Comment - Section block comment (Both header and footer)"
-	},
-	"comm-header": {
-		"prefix": "comm-header",
-		"body": [ "",
-				"/*=============================================>>>>>",
-				"=  ${1:Section comment block}  =",
-				"===============================================>>>>>*/",
-				"\n$0\n"
-		],
-		"description": "Comment - Section block comment begin"
-	},
-	"comm-footer": {
-		"prefix": "comm-footer",
-		"body": ["",
-			"/*= End of ${1:Section comment block} =*/",
-			"/*=============================================<<<<<*/"
-		],
-		"description": "Comment - Section block comment end"
 	}
 }

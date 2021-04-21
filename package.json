@@ -2,7 +2,7 @@
     "name": "vscode-js-comment-snippets",
     "displayName": "VSCode JS Comment Snippets",
     "description": "A port of the famous Sublime Snippets package for Javascript, React, vue and Typescript",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisher":"zer0th",
     "icon":"icon.png",
     "repository": {

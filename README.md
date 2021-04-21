@@ -22,35 +22,16 @@ Tab trigger: `comm-section` + `tab`
 /*=============================================>>>>>
 = Section comment block =
 ===============================================>>>>>*/
-
-
-
-/*= End of Section comment block =*/
-/*=============================================<<<<<*/
-```
-
-#### Section Header
-
-Tab trigger: `comm-section-header` + `tab`
-
-```js
-/*=============================================>>>>>
-= Section comment block =
-===============================================>>>>>*/
-```
-
-#### Section Footer
-
-Tab trigger: `comm-section-footer` + `tab`
-
-```css
+ 
+ 
+ 
 /*= End of Section comment block =*/
 /*=============================================<<<<<*/
 ```
 
 #### Subsection
 
-Tab trigger: `comm-subsection-lines` + `tab`
+Tab trigger: `comm-subsection` + `tab`
 
 ```css
 /*----------- Subsection comment block -----------*/
@@ -79,6 +60,20 @@ Tab trigger: `comm-block` + `tab`
 /**
  *
  * Block comment
+ *
+ */
+```
+
+#### Todo Comment
+
+Tab trigger: `comm-todo` + `tab`
+
+```css
+/**
+ *
+ * TODO:
+ *	- First todo item
+ *	- Second todo item
  *
  */
 ```
