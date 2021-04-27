@@ -1,4 +1,18 @@
 {
+	"comm-file": {
+		"prefix": "comm-file",
+		"body": [
+			"/*-----------------------------------------------------------",
+			"* @name ${1:File Name}",
+			"* @description ${2:Short Description}",
+			"*",
+			"* @author ${3:Author}",
+			"* @version ${4:Version}",
+			"*-----------------------------------------------------------*/"
+		],
+		"description": "Comment - File comment",
+		"scope": ""
+	},
 	"comm-block": {
 		"prefix": "comm-block",
 		"body": "/**\n *\n * ${1:Block comment}\n *\n */\n$0\n",
